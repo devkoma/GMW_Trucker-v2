@@ -1,6 +1,6 @@
 <html>
   	<p align="center">
-		<img width="250" height="250" src="src/stream/image.png">
+		<img width="250" height="250" src="stream/image.png">
   </p>
 </html>
 
