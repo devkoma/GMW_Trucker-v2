@@ -42,10 +42,10 @@ end
 MenuName = Config.Name
 
 
-RMenu.Add("GMW_Scripts:mainMenu", 'main', RageUI.CreateMenu(MenuName, "~b~ ", menuPosition["x"], menuPosition["y"], "themes", Config.Theme))
-RMenu.Add("GMW_Scripts:subMenu", "subMenu", RageUI.CreateSubMenu(RMenu:Get("GMW_Scripts:mainMenu", 'main'), MenuName, "~g~Legaler Transport", menuPosition["x"], menuPosition["y"], "themes", Config.Theme))
-RMenu.Add("GMW_Scripts:subMenuExport", "subMenuExport", RageUI.CreateSubMenu(RMenu:Get("GMW_Scripts:mainMenu", 'main'), MenuName, "~r~Illegaler Transport", menuPosition["x"], menuPosition["y"], "themes", Config.Theme))
-RMenu.Add("GMW_Scripts:F6Menu", "F6Menu", RageUI.CreateMenu(MenuName, "~b~LS Logistics", menuPosition["x"], menuPosition["y"], "themes", Config.Theme))
+RMenu.Add("GMW_Scripts:mainMenu", 'main', RageUI.CreateMenu(MenuName, "~b~ ", menuPosition["x"], menuPosition["y"], 'themes', Config.Themes))
+RMenu.Add("GMW_Scripts:subMenu", "subMenu", RageUI.CreateSubMenu(RMenu:Get("GMW_Scripts:mainMenu", 'main'), MenuName, "~g~Legaler Transport", menuPosition["x"], menuPosition["y"], "themes", Config.Themes))
+RMenu.Add("GMW_Scripts:subMenuExport", "subMenuExport", RageUI.CreateSubMenu(RMenu:Get("GMW_Scripts:mainMenu", 'main'), MenuName, "~r~Illegaler Transport", menuPosition["x"], menuPosition["y"], "themes", Config.Themes))
+RMenu.Add("GMW_Scripts:F6Menu", "F6Menu", RageUI.CreateMenu(MenuName, "~b~LS Logistics", menuPosition["x"], menuPosition["y"], "themes", Config.Themes))
 
 local ped = nil
 
