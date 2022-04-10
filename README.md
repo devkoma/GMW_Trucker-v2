@@ -4,11 +4,10 @@
   </p>
 </html>
 
-# GMW_Trucker-v2 | Farming Script | [Discord](https://discord.gg/UjSZkKFC78)
+# GMW_Trucker-v2 | Farming Script | [Discord](https://discord.gg/UjSZkKFC78) | [Wiki](https://github.com/devkoma/GMW_Trucker-v2/wiki)
 
 ## Version: 2.0.7 | Changelog
 
-## [Wiki]()
 
 ## New Update coming soon [2.1.5]
 ### Features:
